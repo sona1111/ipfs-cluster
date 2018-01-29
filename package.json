@@ -90,6 +90,11 @@
       "hash": "QmcZfnkapfECQGcLZaf9B79NRg7cRa9EnZh4LSbkCzwNvY",
       "name": "go-cid",
       "version": "0.7.20"
+    },
+    {
+      "hash": "QmceUdzxkimdYsgtX733uNgzf1DLHyBKN6ehGSp85ayppM",
+      "name": "go-ipfs-cmdkit",
+      "version": "1.0.0"
     }
   ],
   "gxVersion": "0.11.0",
