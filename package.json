@@ -15,15 +15,15 @@
     },
     {
       "author": "whyrusleeping",
-      "hash": "QmdKZLFmdWyCyF1FzFoKHsLg4iHr44bX6Q7WqqV8oicmmE",
+      "hash": "QmY6iAoG9DVgZwh5ZRcQEpa2uErAe1Hbei8qXPCjpDS9Ge",
       "name": "go-libp2p",
-      "version": "5.0.18"
+      "version": "5.0.21"
     },
     {
       "author": "hsanjuan",
-      "hash": "QmRPYG22SnwceJwMbd7QNRW1p4VoKqA9ttVvZMLDeQjssp",
+      "hash": "QmSBDsZrU43VQ6KYbgP8QPbRrHXamxtwCt6tBkNXrHeCvt",
       "name": "go-libp2p-raft",
-      "version": "1.2.5"
+      "version": "1.2.7"
     },
     {
       "author": "urfave",
@@ -45,9 +45,9 @@
     },
     {
       "author": "hsanjuan",
-      "hash": "QmQmsqU2zjHXGSi5HZeyUDZSLge9iKjFqro3CpeJFFZMMT",
+      "hash": "QmdkYdKmXnmKRoUWzYMpc7JxDsjgLgDKVkFPzooZuvACc2",
       "name": "go-libp2p-gorpc",
-      "version": "1.0.8"
+      "version": "1.0.10"
     },
     {
       "author": "libp2p",
@@ -69,9 +69,9 @@
     },
     {
       "author": "hsanjuan",
-      "hash": "QmUTw6AsKpE5NEUNKbAYVZbFdFnkbsSDUc9zAhPYmGb1Aq",
+      "hash": "QmTvDU8BACNxhKjHHkZpnZFntTx8y4bxjqdyhuMCtyegXF",
       "name": "go-libp2p-http",
-      "version": "1.0.3"
+      "version": "1.0.5"
     },
     {
       "author": "ipfs",
@@ -81,9 +81,9 @@
     },
     {
       "author": "whyrusleeping",
-      "hash": "QmTtnF6ZoGkhEvYa2SfK1JWF7dXHytMfaiGbYxSzAi6L4a",
+      "hash": "QmXnfFDoma1RzcMCV1jzLKbDByZvbuG9NnuRXNFwnJujEn",
       "name": "go-libp2p-floodsub",
-      "version": "0.9.15"
+      "version": "0.9.17"
     },
     {
       "author": "whyrusleeping",
