@@ -48,6 +48,8 @@ var (
 	// clusterPort   = 10000
 	// apiPort       = 10100
 	// ipfsProxyPort = 10200
+
+	globalLock sync.Mutex
 )
 
 func init() {
@@ -66,6 +68,9 @@ func init() {
 	for f := range LoggingFacilitiesExtra {
 		SetFacilityLogLevel(f, logLevel)
 	}
+
+	// waitForLeaderTimeout + 1s
+	ReadyTimeout = 11 * time.Second
 }
 
 func checkErr(t *testing.T, err error) {
@@ -111,8 +116,6 @@ func createComponents(t *testing.T, i int, clusterSecret []byte, staging bool) (
 	clusterCfg.ListenAddr = clusterAddr
 	clusterCfg.LeaveOnShutdown = false
 	clusterCfg.SetBaseDir("./e2eTestRaft/" + pid.Pretty())
-
-	ReadyTimeout = consensusCfg.WaitForLeaderTimeout + 1*time.Second
 
 	host, err := NewClusterHost(context.Background(), clusterCfg)
 	checkErr(t, err)
