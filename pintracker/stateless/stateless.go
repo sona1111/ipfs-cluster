@@ -478,7 +478,7 @@ func (spt *Tracker) getErrorsAll() []api.PinInfo {
 }
 
 func (spt *Tracker) removeError(c *cid.Cid) {
-	spt.optracker.Clean(spt.optracker.GetOp(c))
+	spt.optracker.CleanError(c)
 	return
 }
 
